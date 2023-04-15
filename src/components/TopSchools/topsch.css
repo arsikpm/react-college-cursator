@@ -1,0 +1,22 @@
+.tschools__cards {
+	grid-template-columns: repeat(4, 2fr);
+	justify-content: center;
+	column-gap: 1.5rem;
+	row-gap: 1.5rem;
+}
+
+.tschools__title {
+	font-size: 30px;
+	margin-bottom: 3rem;
+}
+
+.tschools__card {
+	background-color: #fff;
+	border: 1px solid #dedede;
+	border-radius: 13px;
+	padding: 2.95rem 3.3rem;
+}
+
+.tschools__img {
+	text-align: center;
+}
