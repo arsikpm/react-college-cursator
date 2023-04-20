@@ -75,20 +75,24 @@ const Footer = () => {
 				</div>
 				<div className='footer__bottom-right'>
 					<ul>
-						<Link 							className='footer__middle-left-link'
+						<Link
+							className='footer__middle-left-link'
 							to='/'
 							duration={150}
 							spy={true}
 							smooth={true}
-							offset={-100}>
+							offset={-100}
+						>
 							<li>Политика конфиденциальности</li>
 						</Link>
-						<Link 							className='footer__middle-left-link'
+						<Link
+							className='footer__middle-left-link'
 							to='/'
 							duration={150}
 							spy={true}
 							smooth={true}
-							offset={-100}>
+							offset={-100}
+						>
 							<li>Пользовательские соглашения</li>
 						</Link>
 					</ul>

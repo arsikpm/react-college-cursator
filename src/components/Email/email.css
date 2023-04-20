@@ -69,3 +69,72 @@ button:hover {
 	color: #8f8f8f;
 	letter-spacing: 1px;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+	.email__right > img {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.email__right {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.email__left-text > h1 {
+		max-width: 210px;
+		font-size: 36px;
+	}
+
+	.email__subscribe {
+		display: grid;
+		gap: 15px;
+	}
+
+	.email__subscribe > input {
+		border-radius: 14px;
+		width: 100%;
+	}
+
+	.email__subscribe > button {
+		border-radius: 14px;
+		width: 1fr;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.email__left-text > h1 {
+		max-width: 200px;
+		font-size: 32px;
+	}
+
+	.email__subscribe {
+		display: grid;
+		gap: 15px;
+	}
+
+	.email__subscribe > input {
+		border-radius: 14px;
+		width: 100%;
+	}
+
+	.email__subscribe > button {
+		border-radius: 14px;
+		width: 1fr;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.email__wrapper {
+		width: 1frs;
+	}
+
+	.email__left {
+		padding: 2rem;
+	}
+}

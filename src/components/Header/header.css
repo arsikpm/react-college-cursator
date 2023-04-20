@@ -49,3 +49,24 @@ header {
 	display: flex;
 	column-gap: 1.7rem;
 }
+
+@media screen and (max-width: 1200px) {
+	.header {
+		display: grid;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.nav {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

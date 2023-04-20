@@ -11,7 +11,7 @@ const Header = () => {
 					<span>Cursator</span>
 				</Link>
 				<div className='nav__menu'>
-					<ul className='nav__list'>
+					<ul className='nav__list grid'>
 						<li className='nav__item'>
 							<Link
 								to='home'
