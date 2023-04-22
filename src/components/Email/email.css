@@ -1,7 +1,8 @@
 .email__wrapper {
 	background-color: #fff;
 	border-radius: 31px;
-	border: 1px solid #dcdcdc;
+	border: 2px solid #dcdcdc;
+	overflow: hidden;
 }
 
 .email__inner {
@@ -16,7 +17,7 @@
 .email__left-text > div {
 	background-color: #dbf4ed;
 	color: #43c59e;
-	padding: 0.9rem 1.8rem;
+	padding: 1rem 1.8rem;
 	border-radius: 13px 13px 13px 0;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -24,7 +25,7 @@
 }
 
 .email__left-text > h1 {
-	margin-top: 1.5rem;
+	margin-top: 1.2rem;
 	font-size: 35px;
 	text-transform: uppercase;
 	width: 500px;
@@ -40,17 +41,17 @@
 .email__subscribe > input {
 	border: none;
 	background-color: #eee;
-	padding: 1.55rem 1.5rem;
+	padding: 1.4rem 1.5rem;
 	border-radius: 14px 0 0 14px;
 	outline: none;
-	width: 280px;
+	width: 300px;
 	font-size: 18px;
 	color: #0075ff;
 }
 
 .email__subscribe > button {
 	background-color: #0075ff;
-	padding: 1.5rem 3rem;
+	padding: 1.4rem 3rem;
 	color: #fff;
 	border-radius: 0 14px 14px 0;
 	font-size: 18px;
@@ -62,7 +63,13 @@ button:hover {
 	transition: 200ms ease-in-out;
 }
 
+.email__right {
+	background-color: #0065db;
+	border-radius: 0 25px 25px 250px;
+}
+
 .email__right > img {
+	height: 101%;
 }
 
 ::placeholder {

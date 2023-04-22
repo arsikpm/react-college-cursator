@@ -1,7 +1,7 @@
 .wrapper {
 	background-color: #fff;
 	border-radius: 37px;
-	border: 1px solid #dcdcdc;
+	border: 2px solid #e0e0e0;
 	box-shadow: 0px 0px 7px -36px rgba(34, 60, 80, 0.78);
 }
 
@@ -40,13 +40,13 @@
 }
 
 .courses__title {
-	font-size: 22px;
+	font-size: 23px;
 	font-weight: 600;
 	margin-top: 1.3rem;
 }
 
 .courses__title-main {
-	font-size: 30px;
+	font-size: 32px;
 	margin-bottom: 3.2rem;
 	margin-top: -0.7;
 }

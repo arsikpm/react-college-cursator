@@ -203,7 +203,7 @@ const TopCourses = () => {
 								<img src={COINS} alt='' />
 								<div>17 150 &#8381; / курс</div>
 							</div>
-							<div className='transition: 200ms ease-in-out;'>
+							<div className='topcrs__price-right'>
 								<div>От 2 777 &#8381;/мес</div>
 							</div>
 						</div>

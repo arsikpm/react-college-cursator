@@ -20,8 +20,7 @@
 .topcrs__items {
 	grid-template-columns: repeat(3, 2fr);
 	justify-content: center;
-	column-gap: 2rem;
-	margin: 1rem 2rem;
+	margin: auto;
 }
 
 .topcrs__item {
@@ -39,14 +38,14 @@
 	display: flex;
 	align-items: center;
 	gap: 14px;
-	margin: 1.4rem;
+	margin: 1.7rem;
 	position: absolute;
 	z-index: 10;
 }
 
 .topcrs_label {
 	background-color: #fff;
-	padding: 9px 13px;
+	padding: 10px 13px;
 	border-radius: 34px;
 	font-weight: 500;
 	cursor: pointer;
@@ -87,7 +86,7 @@
 .topcrs__rating-text {
 	display: flex;
 	align-items: center;
-	gap: 2px;
+	gap: 3px;
 	font-size: 16px;
 	margin-top: 3px;
 }
@@ -126,11 +125,11 @@
 
 .topcrs__price-left > div {
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 .topcrs__price-right {
-	font-size: 17px;
+	font-size: 18px;
 }
 
 .topcrs__footer {

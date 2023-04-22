@@ -1,13 +1,8 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import FC from '../../assets/images/footer/facebook.svg'
 import OK from '../../assets/images/footer/ok.svg'
-import SK from '../../assets/images/footer/skype.svg'
 import TG from '../../assets/images/footer/telegramm.svg'
-import TW from '../../assets/images/footer/twitter.svg'
-import VB from '../../assets/images/footer/viber.svg'
 import VK from '../../assets/images/footer/vk.svg'
-import WT from '../../assets/images/footer/whatsapp.svg'
 import ScrollUp from '../ScrollUp/ScrollUp'
 import './footer.css'
 
@@ -18,13 +13,8 @@ const Footer = () => {
 				<h1>Cursator</h1>
 				<div className='footer__top-logotypes'>
 					<img src={TG} alt='telegramm' />
-					<img src={TW} alt='twitter' />
-					<img src={SK} alt='skype' />
 					<img src={OK} alt='ok' />
-					<img src={FC} alt='facebook' />
 					<img src={VK} alt='vk' />
-					<img src={WT} alt='whatsapp	' />
-					<img src={VB} alt='viber' />
 				</div>
 			</div>
 			<div className='footer__middle'>

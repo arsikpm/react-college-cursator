@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FiChevronDown } from 'react-icons/fi'
 import { Link } from 'react-scroll'
+import LINES from '../../assets/images/header/lines.svg'
 import './header.css'
 
 const Header = () => {
+	const [Toggle, showMenu] = useState(false)
 	return (
 		<header className='header'>
 			<nav className='nav container'>
 				<Link className='nav__logo' to='home' smooth={true} duration={150}>
 					<span>Cursator</span>
 				</Link>
-				<div className='nav__menu'>
+				<div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
 					<ul className='nav__list grid'>
 						<li className='nav__item'>
 							<Link
@@ -62,6 +64,9 @@ const Header = () => {
 							</Link>
 						</li>
 					</ul>
+				</div>
+				<div className='nav__toggle' onClick={() => showMenu(!Toggle)}>
+					<img className='nav__toggle' src={LINES} alt='lines' />
 				</div>
 			</nav>
 		</header>

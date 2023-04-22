@@ -7,7 +7,6 @@ import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header.jsx'
 import Home from './components/Home/Home'
 import TopCourses from './components/TopCourses/TopCourses'
-import TopSchools from './components/TopSchools/TopSchools'
 
 const App = () => {
 	return (
@@ -16,7 +15,6 @@ const App = () => {
 			<main className='main'>
 				<Home />
 				<Courses />
-				<TopSchools />
 				<TopCourses />
 				<Email />
 				<Blog />
